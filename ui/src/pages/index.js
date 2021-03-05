@@ -78,17 +78,20 @@ function Home() {
         </div>
       </header>
       <main>
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
+          <p>The goal of this project is to aggregate and reference information and guides about AWS Cognito, to make the service easier for everyone to use.</p>
+          <p>Everyone is welcome to contribute. You can send a PR to reference new and existing content through the feeds, and <a href="https://twitter.com/bahrdev">discuss with me on Twitter</a> how to improve the discovery of content.</p>
+          <p>This page will see a some major overhauls, as we start to understand how to guide developers who want to get started with AWS Cognito and expand their knowledge.</p>
+        {/*{features && features.length > 0 && (*/}
+        {/*  <section className={styles.features}>*/}
+        {/*    <div className="container">*/}
+        {/*      <div className="row">*/}
+        {/*        {features.map((props, idx) => (*/}
+        {/*          <Feature key={idx} {...props} />*/}
+        {/*        ))}*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  </section>*/}
+        {/*)}*/}
       </main>
     </Layout>
   );

@@ -1,13 +1,13 @@
 module.exports = {
   title: 'Cognito Wiki',
-  tagline: 'The tagline of cognito Wiki',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'We aggregate all the content about AWS Cognito, to make it easier for you to get started and dive deep.',
+  url: 'https://cognito.wiki',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'bahrmichael',
+  projectName: 'cognito-wiki',
   themeConfig: {
     navbar: {
       title: 'Cognito Wiki',
@@ -34,32 +34,20 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Collaborate',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
+              label: 'GitHub',
+              href: 'https://github.com/bahrmichael/cognito-wiki',
+            }
           ],
         },
         {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/bahrdev',
             },
           ],
         },
@@ -69,15 +57,11 @@ module.exports = {
             {
               label: 'Feed',
               to: 'feed',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/bahrmichael/cognito-wiki',
-            },
+            }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Michael Bahr, Built with Docusaurus.`,
     },
   },
   presets: [
