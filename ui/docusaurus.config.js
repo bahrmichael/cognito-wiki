@@ -22,7 +22,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'feed', label: 'Feed', position: 'left'},
         {
           href: 'https://github.com/bahrmichael/cognito-wiki',
           label: 'GitHub',
@@ -67,8 +67,8 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Feed',
+              to: 'feed',
             },
             {
               label: 'GitHub',
@@ -91,10 +91,12 @@ module.exports = {
             'https://github.com/bahrmichael/cognito-wiki/edit/master/website/',
         },
         blog: {
+          path: 'feed',
+          routeBasePath: 'feed',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/bahrmichael/cognito-wiki/edit/master/website/blog/',
+            'https://github.com/bahrmichael/cognito-wiki/edit/master/website/feed/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

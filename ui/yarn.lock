@@ -721,7 +721,7 @@
 "@babel/plugin-transform-for-of@^7.13.0":
   version "7.13.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-for-of/-/plugin-transform-for-of-7.13.0.tgz#c799f881a8091ac26b54867a845c3e97d2696062"
-  integrity sha512-IHKT00mwUVYE0zzbkDgNRP6SRzvfGCYsOxIRz8KsiaaHCcT9BWIkO+H9QRJseHBLOGBZkHUdHiqj6r0POsdytg==
+  integrity sha512-IHKT00mwUVYE0zzbkDgNRP6SRzvfGCYsOxIRz8KsiaaHCcT9BWIkO+H9QRJseHFEEDBZkHUdHiqj6r0POsdytg==
   dependencies:
     "@babel/helper-plugin-utils" "^7.13.0"
 
@@ -1237,9 +1237,9 @@
     url-loader "^4.1.1"
     webpack "^4.44.1"
 
-"@docusaurus/plugin-content-blog@2.0.0-alpha.70":
+"@docusaurus/plugin-content-feed@2.0.0-alpha.70":
   version "2.0.0-alpha.70"
-  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-content-blog/-/plugin-content-blog-2.0.0-alpha.70.tgz#795a5ddf181dfb314873a5dc33010d1a5bd94d28"
+  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-content-feed/-/plugin-content-feed-2.0.0-alpha.70.tgz#795a5ddf181dfb314873a5dc33010d1a5bd94d28"
   integrity sha512-qWXlSDovkhCZLJR0Wz4e3YcNjlelpuSNkS1rJ8sI1ehs/n32lj7A/nVoRfS/LnOMfIciY48vVPr64VLb6dfEeg==
   dependencies:
     "@docusaurus/core" "2.0.0-alpha.70"
@@ -1346,7 +1346,7 @@
   integrity sha512-Zx98KryJjHiqzGisWKR0glXl0HXuf/YbcK9yUl6ySyS+6cIMAuGMS0HGLgbvvEmYjywz7nMLpijzGderEOihjQ==
   dependencies:
     "@docusaurus/core" "2.0.0-alpha.70"
-    "@docusaurus/plugin-content-blog" "2.0.0-alpha.70"
+    "@docusaurus/plugin-content-feed" "2.0.0-alpha.70"
     "@docusaurus/plugin-content-docs" "2.0.0-alpha.70"
     "@docusaurus/plugin-content-pages" "2.0.0-alpha.70"
     "@docusaurus/plugin-debug" "2.0.0-alpha.70"
@@ -1362,7 +1362,7 @@
   integrity sha512-lKU+fgSd08fo3LNYTw31Wty7RgAdFm8bEOwBNkKZcCFnatTSG4qyDbrDZclCQT/SpXSv9XIEKUc0irg2IH6Qrg==
   dependencies:
     "@docusaurus/core" "2.0.0-alpha.70"
-    "@docusaurus/plugin-content-blog" "2.0.0-alpha.70"
+    "@docusaurus/plugin-content-feed" "2.0.0-alpha.70"
     "@docusaurus/plugin-content-docs" "2.0.0-alpha.70"
     "@docusaurus/plugin-content-pages" "2.0.0-alpha.70"
     "@docusaurus/theme-common" "2.0.0-alpha.70"
@@ -1390,7 +1390,7 @@
   integrity sha512-Ge/dLGPCJhtyvumSMg0BlWcF00d1Qd2KnHf8kL/0nTxe257yNTHIOK95LKhIPAdcVgxG+ge9N0XcBm4KaubASQ==
   dependencies:
     "@docusaurus/core" "2.0.0-alpha.70"
-    "@docusaurus/plugin-content-blog" "2.0.0-alpha.70"
+    "@docusaurus/plugin-content-feed" "2.0.0-alpha.70"
     "@docusaurus/plugin-content-docs" "2.0.0-alpha.70"
     "@docusaurus/plugin-content-pages" "2.0.0-alpha.70"
     "@docusaurus/types" "2.0.0-alpha.70"
@@ -2671,7 +2671,7 @@ cacache@^15.0.5:
 cache-base@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/cache-base/-/cache-base-1.0.1.tgz#0a7f46416831c8b662ee36fe4e7c59d76f666ab2"
-  integrity sha512-AKcdTnFSWATd5/GCPRxr2ChwIJ85CeyrEyjRHlKxQ56d4XJMGym0uAiKn0xbLOGOl3+yRpOTi484dVCEc5AUzQ==
+  integrity sha512-AKcdTnFSWATd5/GCPRxr2ChwIJ85CeyrEyjRHlKxQ56d4XJMGym0uAiKn0xfEEDOl3+yRpOTi484dVCEc5AUzQ==
   dependencies:
     collection-visit "^1.0.0"
     component-emitter "^1.2.1"
