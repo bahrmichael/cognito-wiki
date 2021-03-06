@@ -12,28 +12,27 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          The goal of this project is to aggregate and reference information and guides about AWS Cognito,
+          to make the service easier for everyone to use.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Contribute',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        We need your help! Do you know a great article, or would you like to improve this website? Check out
+          the collaboration guidelines. This website is all open source an MIT licensed.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Collaborate',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          Would you like to help running this project? Please <a href={'https://twitter.com/bahrdev'}>reach out on Twitter</a>!
       </>
     ),
   },
@@ -59,7 +58,7 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={siteConfig.title}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
@@ -78,20 +77,17 @@ function Home() {
         </div>
       </header>
       <main>
-          <p>The goal of this project is to aggregate and reference information and guides about AWS Cognito, to make the service easier for everyone to use.</p>
-          <p>Everyone is welcome to contribute. You can send a PR to reference new and existing content through the feeds, and <a href="https://twitter.com/bahrdev">discuss with me on Twitter</a> how to improve the discovery of content.</p>
-          <p>This page will see a some major overhauls, as we start to understand how to guide developers who want to get started with AWS Cognito and expand their knowledge.</p>
-        {/*{features && features.length > 0 && (*/}
-        {/*  <section className={styles.features}>*/}
-        {/*    <div className="container">*/}
-        {/*      <div className="row">*/}
-        {/*        {features.map((props, idx) => (*/}
-        {/*          <Feature key={idx} {...props} />*/}
-        {/*        ))}*/}
-        {/*      </div>*/}
-        {/*    </div>*/}
-        {/*  </section>*/}
-        {/*)}*/}
+        {features && features.length > 0 && (
+          <section className={styles.features}>
+            <div className="container">
+              <div className="row">
+                {features.map((props, idx) => (
+                  <Feature key={idx} {...props} />
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
       </main>
     </Layout>
   );
