@@ -53,6 +53,10 @@ module.exports = {
             {
               label: 'Feed',
               to: 'feed',
+            },
+            {
+              label: 'Legal',
+              to: 'legal'
             }
           ],
         },
