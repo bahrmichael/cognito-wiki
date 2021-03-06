@@ -11,10 +11,6 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'Cognito Wiki',
-      logo: {
-        alt: 'Cognito Wiki Logo',
-        src: 'img/logo.svg',
-      },
       items: [
         {
           to: 'docs/',
