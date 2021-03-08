@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Cognito Wiki',
-  tagline: 'We collect all the content about AWS Cognito, making it easier for you to get started and dive deep.',
+  tagline: 'A place to collect all the content about AWS Cognito, making it easier for you to get started and dive deep.',
   url: 'https://cognito.wiki',
   baseUrl: '/',
   onBrokenLinks: 'throw',
