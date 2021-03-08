@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import Head from '@docusaurus/Head';
 
 const features = [
   {
@@ -60,6 +61,10 @@ function Home() {
     <Layout
       title={siteConfig.title}
       description="Description will go into a meta tag in <head />">
+      <Head defaultTitle={siteConfig.title}>
+        <script src="https://seahorse.cognito.wiki/script.js" data-spa="auto" data-site="EPNTTRPR" defer/>
+        <title>{siteConfig.title}</title>
+      </Head>
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
