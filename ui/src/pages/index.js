@@ -10,30 +10,31 @@ import Head from '@docusaurus/Head';
 const features = [
   {
     title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/undraw_Instant_information_re_c5v5.svg',
     description: (
       <>
-          The goal of this project is to aggregate and reference information and guides about AWS Cognito,
-          to make the service easier for everyone to use.
+        The goal of this project is to collect and reference information and guides about AWS Cognito,
+          to make the knowledge easily accessible for everyone. We're just getting starte, so expect some
+          improvements and overhauls soon.
       </>
     ),
   },
   {
-    title: 'Contribute',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Share Content',
+    imageUrl: 'img/undraw_Sharing_articles_re_jnkp.svg',
     description: (
       <>
-        We need your help! Do you know a great article, or would you like to improve this website? Check out
-          the collaboration guidelines. This website is all open source an MIT licensed.
+        We need your help and your knowledge! Do you know a great article that you want to share? Check out the docs
+          and send a pull request.
       </>
     ),
   },
   {
     title: 'Collaborate',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/undraw_Co_workers_re_1i6i.svg',
     description: (
       <>
-          Would you like to help running this project? Please <a href={'https://twitter.com/bahrdev'}>reach out on Twitter</a>!
+        Would you like to help with this project? Please <a href={'https://twitter.com/bahrdev'}>reach out to Michael on Twitter</a>!
       </>
     ),
   },
@@ -76,7 +77,16 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              Start Learning
+            </Link>
+            <Link
+                className={clsx(
+                    'button button--outline button--secondary button--lg',
+                    styles.getStarted,
+                )}
+                style={{marginLeft: '10px'}}
+                to={useBaseUrl('docs/submit-content/')}>
+              Share Content
             </Link>
           </div>
         </div>
