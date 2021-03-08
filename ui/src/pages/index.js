@@ -61,7 +61,7 @@ function Home() {
   return (
     <Layout
       title={siteConfig.title}
-      description="Description will go into a meta tag in <head />">
+      description="Find all the content about AWS Cognito in one curated place.">
       <Head defaultTitle={siteConfig.title}>
         <script src="https://seahorse.cognito.wiki/script.js" data-spa="auto" data-site="EPNTTRPR" defer/>
         <title>{siteConfig.title}</title>
