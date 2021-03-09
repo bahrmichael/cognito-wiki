@@ -1,6 +1,6 @@
 ---
 slug: workshop-serverless-app-web-identify-federation
-title: Workshop: Implementing a serverless app with Web Identity Federation
+title: Workshop to implement a serverless app with Web Identity Federation
 author: Adrian Cantrill
 author_image_url: https://avatars.githubusercontent.com/u/15226029
 tags: [workshop, serverless]
