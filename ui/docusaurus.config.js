@@ -63,6 +63,15 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Michael Bahr, Built with Docusaurus.`,
     },
+    algolia: {
+      apiKey: '28ee8eaf1208f1e6f5e5869e995641b6',
+      indexName: 'cognito',
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      //... other Algolia params
+    },
   },
   presets: [
     [
