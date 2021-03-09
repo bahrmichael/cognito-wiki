@@ -1,5 +1,5 @@
 ---
-slug: user-pool-basics
+slug: user-pool-authenticating-with-user-pass
 title: User Pool Authenticating with a username and password
 author: Aleksander Wons
 tags: [userpools, cdk]
