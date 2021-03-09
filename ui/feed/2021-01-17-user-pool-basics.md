@@ -1,6 +1,6 @@
 ---
 slug: user-pool-basics
-title: User Pool; the basics
+title: User Pool The basics
 author: Aleksander Wons
 tags: [userpools, cdk]
 ---
