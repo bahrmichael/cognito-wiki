@@ -24,8 +24,8 @@ const features = [
     imageUrl: 'img/undraw_Sharing_articles_re_jnkp.svg',
     description: (
       <>
-        We need your help and your knowledge! Do you know a great article that you want to share? <a href={'/docs/submit-content'}>Check out the docs</a>
-          and send a pull request.
+        We need your help and your knowledge! Do you know a great article that you want to
+          share? <a href={'/docs/submit-content'}>Check out the docs</a> and send a pull request.
       </>
     ),
   },
