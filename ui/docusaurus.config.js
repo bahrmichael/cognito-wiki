@@ -90,6 +90,7 @@ module.exports = {
           blogDescription: 'Latest content about Amazon Cognito',
           showReadingTime: false,
           postsPerPage: 10,
+          blogSidebarCount: 10,
           editUrl:
             'https://github.com/bahrmichael/cognito-wiki/edit/main/ui/feed/',
           feedOptions: {
