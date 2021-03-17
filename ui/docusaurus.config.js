@@ -91,6 +91,7 @@ module.exports = {
           showReadingTime: false,
           editUrl:
             'https://github.com/bahrmichael/cognito-wiki/edit/main/ui/feed/',
+          // rss feed is available at /feed/rss.xml
           feedOptions: {
             type: 'rss',
             description: `cognito.wiki Feed`,
