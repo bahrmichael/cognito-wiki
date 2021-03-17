@@ -86,10 +86,17 @@ module.exports = {
         blog: {
           path: 'feed',
           routeBasePath: 'feed',
-          showReadingTime: true,
-          // Please change this to your repo.
+          blogTitle: 'Feed',
+          blogDescription: 'Latest content about Amazon Cognito',
+          showReadingTime: false,
           editUrl:
-            'https://github.com/bahrmichael/cognito-wiki/edit/master/website/feed/',
+            'https://github.com/bahrmichael/cognito-wiki/edit/main/ui/feed/',
+          // rss feed is available at /feed/rss.xml
+          feedOptions: {
+            type: 'rss',
+            description: `cognito.wiki Feed`,
+            language: 'en'
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
