@@ -14,7 +14,7 @@ const features = [
     description: (
       <>
         The goal of this project is to collect and reference information and guides about AWS Cognito,
-          to make the knowledge easily accessible for everyone. We're just getting starte, so expect some
+          to make the knowledge easily accessible for everyone. We're just getting started, so expect some
           improvements and overhauls soon.
       </>
     ),
